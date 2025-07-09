@@ -1,127 +1,142 @@
 # 🏥 VHeal AI – Agentic Discharge Copilot for Hospitals
 
 > 🧠 **Raise Your Hack 2025 – Paris (Online + Onsite)**  
-> 🚀 Built with Agentic AI to **streamline hospital discharge** coordination in real time.  
+> 🚀 Built with Agentic AI to automate hospital discharge coordination in real time.  
 > ❌ No more delays. ✅ More beds, better care, less burnout.
+
+🔗 **Live Demo:** [https://vheal-ai.streamlit.app](https://vheal-ai.streamlit.app)
 
 ---
 
 ## 🚨 The Problem: Discharge is Broken
 
-In high-pressure hospitals like those in Manhattan or Paris, **discharge delays** are common due to:
+In major hospitals (e.g. Manhattan, Paris), discharge delays are common due to:
 
-- Fragmented handoffs between doctors, nurses, billing, and pharmacy  
-- Manual summaries and checklists  
-- No centralized system to track readiness or progress
+- Fragmented handoffs between doctors, nurses, pharmacy, billing  
+- Manual summaries and outdated checklists  
+- No centralized platform to track readiness or progress
 
-These gaps lead to:
+These issues result in:
 
 - ❌ Bed Shortages  
 - 😫 Staff Burnout  
 - 💸 Higher Patient Costs  
-- ⏳ Poor Hospital Efficiency
+- ⏳ Inefficient Care Delivery
 
 ---
 
 ## 💡 Our Solution: VHeal AI
 
-**VHeal AI** is an **Agentic AI-powered hospital discharge coordinator**.
+**VHeal AI** is an **Agentic AI-powered autonomous discharge assistant** that acts like a digital hospital staff member.
 
-More than a chatbot — it’s an **autonomous digital staff member** that:
+### 👇 What It Does:
+- 📍 Detects when patients are ready for discharge  
+- 📋 Plans and delegates discharge tasks automatically  
+- 🔗 Communicates across departments via APIs & messaging  
+- 📊 Displays progress on a real-time dashboard
 
-- Detects when a patient is ready for discharge  
-- Plans and delegates tasks (labs, meds, billing, transport)  
-- Communicates across departments using APIs  
-- Tracks progress in real time via an intuitive dashboard
-
-> Think: **Not reactive. Not scripted. Truly autonomous.**
-
----
-
-## 🧠 Agentic AI – Not Just LLMs
-
-What sets VHeal AI apart is its **Agentic Intelligence**.  
-Here’s what makes it stand out:
-
-| 🧩 Capability              | ✅ Description |
-|---------------------------|----------------|
-| **Trigger-Based Autonomy** | Starts when patient marked "Ready for Discharge" |
-| **Multi-Step Reasoning**   | Confirms vitals, meds, labs, clearances |
-| **Delegated Communication**| Notifies pharmacy, billing, nurses, transport |
-| **Tool Use & Memory**      | Accesses patient records, summaries, and staff calendars |
-| **Multimodal Interaction** | Works across chat, dashboards, and databases |
+> "Not reactive. Not rule-based. Truly autonomous."
 
 ---
 
-## 🔧 Features Overview
+## 🧠 What Makes It Agentic?
 
-- 🧾 **Auto-Generated Discharge Summaries** (LLM-powered: GPT-4o, Claude 3, Mistral)  
-- ✅ **Checklists Completion Agent** – Labs, meds, vitals  
-- 📞 **Multi-Staff Notifications** – Via WhatsApp, Email, SMS  
-- 📆 **Smart Scheduling** – Discharge timing & room availability  
-- 📊 **Live Dashboard** – Tracks agent progress + human interventions  
+| 🔍 Capability            | ✅ Description |
+|--------------------------|----------------|
+| **Trigger-Based Autonomy** | Starts when a patient is marked "Ready for Discharge" |
+| **Multi-Step Reasoning**   | Validates discharge: vitals, meds, labs, signatures |
+| **Delegated Communication**| Notifies departments like billing, transport, pharmacy |
+| **Tool Use & Memory**      | Uses EMR, staff calendars, previous discharge summaries |
+| **Multimodal Interaction** | Operates via dashboard, APIs, WhatsApp, and email |
+
+---
+
+## 🔧 Core Features
+
+- 🧾 **Auto-generated summaries** (GPT-4o, Claude 3, Mistral)  
+- ✅ **Checklist Agent** – Labs, meds, vitals  
+- 📞 **Smart Alerts** – WhatsApp, Email, SMS to departments  
+- 📆 **Discharge Scheduling** – Room + transport availability  
+- 📊 **Live Dashboard** – Tracks every agent and staff action  
+- 🧠 **Planning Chains** – CrewAI + LangChain multi-agent flow
+
+---
+
+## 🖼️ Product Snapshots
+
+### 📊 Agent Dashboard
+
+![Dashboard](DASHBOARD.jpg)
+
+---
+
+### 📈 Discharge Analytics View
+
+![Analytics](Analytics.jpg)
+
+---
+
+### 💡 Features Overview
+
+![Features](features.jpg)
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer        | Tech Choices |
-|--------------|--------------|
-| **LLMs & Agents** | GPT-4o, Claude 3, Mistral + LangChain, CrewAI |
-| **Backend**  | FastAPI / Node.js |
-| **Frontend** | React.js / Streamlit |
-| **Database** | MongoDB / Firebase |
-| **Messaging**| Twilio, WhatsApp Business API |
-| **Retrieval**| Vectara / Weaviate (optional RAG for record search) |
+| Layer         | Tools |
+|---------------|-------|
+| **LLMs & Agents** | GPT-4o, Claude 3, Mistral, LangChain, CrewAI |
+| **Backend**   | FastAPI / Node.js |
+| **Frontend**  | React.js / Streamlit |
+| **Database**  | MongoDB / Firebase |
+| **Messaging** | Twilio, WhatsApp Business API |
+| **RAG Layer** | Vectara / Weaviate (optional) |
 
 ---
 
-## 👥 Team VHeal (LabLab.ai IDs)
+## 👥 Team VHeal – [LabLab.ai IDs]
 
-| Name              | LabLab.ai ID         | Role                                |
-|-------------------|----------------------|-------------------------------------|
-| **Eesha Tariq**   | `eesha_tariq899`     | AI Engineer – Agent logic, LLMs     |
-| **Aroob Mushtaq** | `aroobmushtaq818`    | Backend Dev – Coordination API      |
-| **Arfa Tariq**    | `Arfah_t`            | Researcher – Healthcare workflow    |
-| **Zeeshan Tariq** | `zeeshantariqpkn`    | Data Scientist – Agent logic, RAG   |
-| **Waqar Ahmed**   | `WaqarAhmed555`      | Frontend – Dashboard UI             |
-| **Sujal Bedre**   | `sujal_bedre114`     | Prompt Engineer – Planning chains   |
-
----
-
-## 🎯 Goal @ Raise Your Hack, Paris
-
-Deliver a **demo-ready**, **agentic AI-powered discharge assistant** within 72 hours that:
-
-- Reduces discharge time by automating workflows  
-- Integrates with real-world APIs  
-- Demonstrates real-time dashboard + communication  
-- Embodies the future of **autonomous healthcare ops**
-
-> 🎯 "We’re not just solving for tech — we’re solving for time, care, and cost."
+| Name              | ID                   | Role                             |
+|-------------------|----------------------|----------------------------------|
+| **Eesha Tariq**   | `eesha_tariq899`     | AI Engineer – Agent Logic, LLMs  |
+| **Aroob Mushtaq** | `aroobmushtaq818`    | Backend Dev – API Integration    |
+| **Arfa Tariq**    | `Arfah_t`            | Researcher – Clinical Workflows  |
+| **Zeeshan Tariq** | `zeeshantariqpkn`    | Data Scientist – RAG & Planning  |
+| **Waqar Ahmed**   | `WaqarAhmed555`      | Frontend Engineer – Dashboards   |
+| **Sujal Bedre**   | `sujal_bedre114`     | Prompt Engineer – LLM Pipelines  |
 
 ---
 
-## 🧪 How to Run Locally
+## 🎯 Hackathon Goal – Raise Your Hack, Paris
+
+- ⏳ Automate hospital discharge in <72 hours  
+- 🧠 Deploy real-time Agentic AI  
+- 🔌 Integrate with APIs like Twilio, Firebase, and EMRs  
+- 📊 Present live dashboard + action-based workflows  
+- 💡 Show the future of **autonomous care coordination**
+
+> _“We’re not just solving for hospitals — we’re solving for time, care, and cost.”_
+
+---
+
+## ▶️ How to Run Locally
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-org/vheal-ai.git
-cd vheal-ai
+git clone https://github.com/codewithEshaYoutube/Vheal_AI.git
+cd Vheal_AI
 
 # 2. Backend setup
 cd backend
-pip install -r requirements.txt
-# or
-npm install
+pip install -r requirements.txt  # or use npm install for Node.js
 
 # 3. Frontend setup
 cd ../frontend
 npm install
 npm run dev
 
-# 4. Add .env file with:
+# 4. Add environment variables (.env)
 OPENAI_API_KEY=...
-TWILIO_API=...
+TWILIO_API_KEY=...
 FIREBASE_CONFIG=...
-=======
