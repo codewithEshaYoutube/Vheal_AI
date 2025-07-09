@@ -65,8 +65,8 @@ These issues result in:
 ## 🖼️ Product Snapshots
 
 ### 📊 Agent Dashboard
+![Dashboard](Dashboard%20(2).jpg)
 
-![Dashboard](DASHBOARD.jpg)
 
 ---
 
