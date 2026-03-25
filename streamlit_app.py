@@ -38,7 +38,7 @@ st.markdown("""
     }
     
     .patient-card {
-        background: #grey;
+        background: #808080;
         padding: 1rem;
         border-radius: 10px;
         margin: 0.5rem 0;
