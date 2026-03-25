@@ -43,6 +43,8 @@ st.markdown("""
         border-radius: 10px;
         margin: 0.5rem 0;
         border-left: 4px solid #28a745;
+        color: black;
+        
     }
     
     .alert-card {
