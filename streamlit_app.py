@@ -755,6 +755,6 @@ else:
             st.checkbox("Email Notifications",    value=True)
             st.checkbox("WhatsApp Notifications", value=False)
         with c2:
-            st.checkbox("Discharge Alerts",       value=True)
+            st.checkbox("Discharge Alerts",       value=True) 
             st.checkbox("Task Completion Alerts", value=True)
             st.checkbox("Emergency Notifications",value=True)
